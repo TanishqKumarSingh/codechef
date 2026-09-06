@@ -49,14 +49,14 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T18:59:07.222Z  
+**Submitted:** 2026-09-06T19:01:27.221Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+	
 
 }
 

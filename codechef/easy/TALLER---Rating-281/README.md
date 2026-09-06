@@ -49,14 +49,23 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T19:02:17.133Z  
+**Submitted:** 2026-09-06T19:04:13.049Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y)
+	    cout<<"A"<<endl;
+	    else
+	    cout<<"B"<<endl;
+	}
 
 }
 

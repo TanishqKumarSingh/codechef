@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int x;
+    cin>>x;
+    if(x<3)
+    cout<<"GOLD"<<endl;
+    else if (x<6&&x>=3)
+    cout<<"SLIVER"<<endl;
+    else
+    cout<<"BRONZE"<<endl;
+    
+}

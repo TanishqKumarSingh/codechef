@@ -6,7 +6,7 @@ int main() {
     cin>>x;
     if(x<3)
     cout<<"GOLD"<<endl;
-    else if (x<6&&x>=3)
+    else if (x<6)
     cout<<"SLIVER"<<endl;
     else
     cout<<"BRONZE"<<endl;

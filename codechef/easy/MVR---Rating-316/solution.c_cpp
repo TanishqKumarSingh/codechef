@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a,b,x,y,w,e;
+    cin>>a>>b>>x>>y;
+    w=(a*2)+b;
+    e=(x*2)+y;
+    if(w==e)
+    cout<<"Equal"<<endl;
+    else if(w>e)
+    cout<<"Messi"<<endl;
+    else
+    cout<<"Ronaldo"<<endl;
+    
+}

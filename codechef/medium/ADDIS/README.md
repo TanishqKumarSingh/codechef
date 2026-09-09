@@ -77,13 +77,9 @@ It can be shown that this is optimal.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:10:48.750Z  
+**Submitted:** 2026-09-09T15:11:00.034Z  
 
 ```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -116,8 +112,6 @@ int main() {
 
     return 0;
 }
-}
-
 ```
 
 ---

@@ -74,17 +74,45 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:04:53.272Z  
+**Submitted:** 2026-09-09T15:05:41.622Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N;
+        string A, B;
+
+        cin >> N;
+        cin >> A;
+        cin >> B;
+
+        int aA = 0, aB = 0;
+
+        for (char c : A) {
+            if (c == 'a')
+                aA++;
+        }
+
+        for (char c : B) {
+            if (c == 'a')
+                aB++;
+        }
+
+       
+        if (aA == N - aB)
+            cout << "YES\n";
+        else
+            cout << "NO\n";
+    }
+
+    return 0;
 }
-
 ```
 
 ---

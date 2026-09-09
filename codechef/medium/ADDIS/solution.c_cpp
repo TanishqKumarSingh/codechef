@@ -2,10 +2,6 @@
 using namespace std;
 
 int main() {
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
     int T;
     cin >> T;
 
@@ -33,5 +29,4 @@ int main() {
     }
 
     return 0;
-}
 }

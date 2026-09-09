@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int x,y,f;
+    cin>>x>>y>>f;
+    
 }

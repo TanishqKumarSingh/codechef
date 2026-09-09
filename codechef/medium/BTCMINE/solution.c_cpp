@@ -2,6 +2,29 @@
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int X, Y;
+        cin >> X >> Y;
+
+        int profit = 0;
+        int days = 0;
+        int gpu = 0;
+
+        while (profit <= 0) {
+            days++;
+
+          
+            gpu++;
+
+            profit -= X;
+            profit += Y * gpu * gpu;
+        }
+
+        cout << days << endl;
+    }
+
+    return 0;
 }

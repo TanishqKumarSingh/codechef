@@ -68,15 +68,16 @@ It's better to buy from the second shop, spending $53$ coins.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:00:19.481Z  
+**Submitted:** 2026-09-09T15:01:53.837Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int x,y,f;
+    cin>>x>>y>>f;
+    
 }
 
 ```

@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:04:47.741Z  
+**Submitted:** 2026-09-09T15:04:53.272Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

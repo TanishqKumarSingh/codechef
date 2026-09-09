@@ -2,7 +2,12 @@
 using namespace std;
 
 int main() {
-    int x,y,f;
+    int x,y,f,q,w;
     cin>>x>>y>>f;
-    
+    q=x*12;
+    w=(y*12)+f;
+    if(q<w)
+    cout<<q<<endl;
+    else
+    cout<<w<<endl;
 }

@@ -62,17 +62,54 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T16:03:52.264Z  
+**Submitted:** 2026-10-07T16:04:22.554Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N, M;
+        cin >> N >> M;
+
+        string S, L;
+        cin >> S >> L;
+
+        // Mark left-hand characters
+        bool isLeft[26] = {};
+
+        for (char c : L) {
+            isLeft[c - 'a'] = true;
+        }
+
+        int current = 1;
+        int answer = 1;
+
+        for (int i = 1; i < N; i++) {
+            bool prevHand = isLeft[S[i - 1] - 'a'];
+            bool currHand = isLeft[S[i] - 'a'];
+
+            if (prevHand == currHand) {
+                current++;
+            } else {
+                current = 1;
+            }
+
+            answer = max(answer, current);
+        }
+
+        cout << answer << '\n';
+    }
+
+    return 0;
 }
-
 ```
 
 ---

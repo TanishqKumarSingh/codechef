@@ -67,17 +67,23 @@ The die has $4$ faces, numbered $3, 6, 9, 12$. Since $15$ is not one of these fa
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T16:02:43.253Z  
+**Submitted:** 2026-10-07T16:02:55.114Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    long long X, K, Y;
+    cin >> X >> K >> Y;
 
+    if (Y % K == 0 && Y / K >= 1 && Y / K <= X)
+        cout << "YES\n";
+    else
+        cout << "NO\n";
+
+    return 0;
 }
-
 ```
 
 ---

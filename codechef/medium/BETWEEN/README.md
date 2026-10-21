@@ -60,15 +60,21 @@ Your rival team is $1$st, and you are $2$nd, no teams between you.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T14:37:33.227Z  
+**Submitted:** 2026-10-21T14:37:55.965Z  
 
 ```c_cpp
-#include <bits/stdc++.h>
+
+#include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int X, Y;
+    cin >> X >> Y;
 
+    cout << abs(X - Y) - 1 << endl;
+
+    return 0;
 }
 
 ```
